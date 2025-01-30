@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Mahinda College E-Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #fafaf5, #c3cfe2);
+            transition: background 0.5s ease;
+        }
+        header {
+            background: linear-gradient(90deg, #ffffff, #ffffff);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #f8f88f;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        nav a {
+            color: rgb(0, 0, 0);
+            padding: 15px 20px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+            transform: scale(1.05);
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: slideIn 0.5s ease-in-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        h2 {
+            color: #4caf50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #logo{
+            width: 100px;
+            height: auto;
+            position: absolute;
+            top: 14px;
+            left: 126px;
+            z-index: 10;
+        }
+
+        #about {
+            color: #ffcc00;
+            text-shadow: 2px 2px 0px black;
+            font-size: 1.5rem;
+            margin-top: 0;
+            padding: 5px;
+        }
+
+        #fi{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.ibb.co/kqw53KT/mcglogo.png" alt="School Logo" id="logo">
+        <h1 id="fi">Mahinda College E-Register</h1>
+    </header>
+    <nav>
+        <a href="intro.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <div class="container">
+        <h2 id="about">About Us</h2>
+        <p>Mahinda College, established in 1892, is a prestigious educational institution that has been at the forefront of academic excellence in Sri Lanka. Our mission is to foster a nurturing environment that encourages students to reach their full potential.</p>
+        <p>The E-Register platform is an innovative solution designed to streamline the management of student records, attendance, and academic performance. This user-friendly system allows teachers and administrators to access and update information effortlessly, promoting a more efficient educational experience.</p>
+        <p>At Mahinda College, we believe in the power of technology to enhance learning. Our dedicated team is committed to ensuring that our students receive the best possible education, preparing them for a bright future.</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Mahinda College E-Register. All rights reserved.</p>
+    </footer>
+</body>
+</html>
